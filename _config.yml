@@ -1,0 +1,31 @@
+# _config.yml
+
+# Site settings
+title: "Your Name - Professional Portfolio"
+description: "A personal brand website for showcasing expertise in LIMS, PLM, and digital transformation."
+baseurl: "" # the subpath of your site, e.g. /blog (leave empty for root)
+url: "https://username.github.io" # the base hostname & protocol for your site
+
+# SEO settings
+author: "Your Name"
+email: "youremail@example.com"
+keywords: "PLM, LIMS, consulting, Product Management, Risk Management, Digital Transformation"
+
+# Theme settings
+theme: minima # or any theme available or installed
+markdown: kramdown
+
+# Social Links
+linkedin: "https://www.linkedin.com/in/yourprofile/"
+github: "https://github.com/username"
+
+# Build settings
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Navigation
+collections:
+  pages:
+    output: true
